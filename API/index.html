@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <section class="doggy">
+            <h1>DOGGY DOG</h1>
+            <h2>Print data every 100ms</h2>
+            <div class="interval">
+            </div>
+            <h2>Choose a breed</h2>
+            <div class="selectDiv">
+            </div>
+            <div class="imageWrapper">
+                <div id="parent1"></div>
+                <div id="parent2"></div>
+            </div>
+            <img src="/API/img/dog1.png" alt="cloud1" id="dog1">
+            <img src="/API/img/dog2.png" alt="cloud2" id="dog2">
+            <img src="/API/img/dog3.png" alt="cloud3" id="dog3">
+            <img src="/API/img/dog4.png" alt="cloud3" id="dog4">
+        </section>
+        <section class="weatherSection">
+            <h1>WEATHER</h1>
+            <h2>API FETCH</h2>
+            <div class="searchWrapper">
+                <input type="text" id="field" placeholder="Indtast et bynavn...">
+                <button type="button" id="btn">SØG</button><br>
+            </div>
+            <br>
+            <label id="error" style="color: red;"></label> 
+            <br><br><br>
+            <img src="/API/img/cloud.png" alt="cloud1" id="cloud1">
+            <img src="/API/img/cloud.png" alt="cloud2" id="cloud2">
+            <img src="/API/img/cloud.png" alt="cloud3" id="cloud3">
+
+            <div class="weeklyWeather"></div>
+            <!-- <div class="weatherWrapper">
+                <header class="headerWrapper">
+                    <div class="headerTitle">
+                    <span>Today</span>
+                    </div>
+                    <div class="headerDate">
+                        <span>Date</span>
+                    </div>
+                </header>
+                <div class="weatherInfoWrapper">
+                   <div class="weatherInfo">
+                        <label id="condition">Conditions</label>
+                        <label id="description">Description</label>
+                        <label id="temp">Temp °C</label>
+                    </div>
+                    <div class="weatherIcon">
+                        <img src="/API/img/cloud.png" alt="weather_icon">
+                    </div> 
+                </div>
+            </div> -->
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
