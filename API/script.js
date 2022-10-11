@@ -136,7 +136,7 @@ let error = document.getElementById('error');
 const parentContainer = document.querySelector('.weeklyWeather');
 
 /* SHOW FETCHED DATA IN THE CONSOLE */
-getData('https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/koege?unitGroup=metric&key=PVFZCSYPBRHZNGKBATB4436BB&contentType=json')
+getData('https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/koege?unitGroup=metric&key=API_KEY&contentType=json')
     .then(data => console.log(data))
     .catch(err => console.log('Rejected3:', err.message));
 
