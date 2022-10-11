@@ -155,7 +155,7 @@ searchBtn.addEventListener('click', () => {
         if (city.includes("å")) {
             cityURL = city.replaceAll("å","aa");
         }
-        getData(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${cityURL}?unitGroup=metric&key=PVFZCSYPBRHZNGKBATB4436BB&contentType=json`)
+        getData(`https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${cityURL}?unitGroup=metric&key=API_KEY&contentType=json`)
             .then(data => {         
                 error.textContent = '';
                 if (parentContainer.firstChild) {
